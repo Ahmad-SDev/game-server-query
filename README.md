@@ -1,7 +1,5 @@
 # game-server-query
 
-[![CI](https://github.com/Ahmad-SDev/game-server-query/actions/workflows/ci.yml/badge.svg)](https://github.com/Ahmad-SDev/game-server-query/actions/workflows/ci.yml)
-
 Ask a game server for its name, map, version and player count. I use this kind of check for hosting status pages and for alerting when a customer's server stops answering.
 
 | Protocol    | Games                                                  | Default port |
