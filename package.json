@@ -1,0 +1,37 @@
+{
+  "name": "game-server-query",
+  "version": "0.1.0",
+  "description": "Query Source/Steam, Minecraft and FiveM servers for name, map and player counts. No runtime dependencies.",
+  "license": "MIT",
+  "author": "Ahmed Morsy",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "gsq": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "game-server",
+    "a2s",
+    "source-query",
+    "minecraft",
+    "fivem",
+    "server-status"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "~5.9.0"
+  }
+}
